@@ -20,8 +20,8 @@ function App() {
       <directionalLight
         castShadow
         position={[0, 10, 0]}
-        intensity={0}
-        color={"#C81111FF"}
+        intensity={1}
+        color={"#BCC811FF"}
         shadow-mapSize-width={1024}
         shadow-mapSize-height={1024}
         shadow-camera-near={1}
@@ -31,14 +31,15 @@ function App() {
         shadow-camera-top={0}
         shadow-camera-bottom={-10}
       />
-      <pointLight position={[22,15 , 14]} color="#FF8000" intensity={1000} castShadow shadow-mapSize={1024} />
-      <pointLight position={[10, 5, 10]} color="#F700FF" intensity={5000} castShadow shadow-mapSize={1024} />
-      <pointLight position={[35, 7, 17]} color="#E76C08" intensity={2000} castShadow shadow-mapSize={1024} />
+      <pointLight position={[70,15, 15]} color="#FF8000" intensity={5000} castShadow shadow-mapSize={1024} />
+      <pointLight position={[70, 10, 15]} color="#F700FF" intensity={5000} castShadow shadow-mapSize={1024} />
+      <pointLight position={[55, 8, 25]} color="#2040F8" intensity={3000} castShadow shadow-mapSize={1024} />
       <pointLight position={[40, 10, 0]} color="#E76C08" intensity={5000} castShadow shadow-mapSize={1024} />
       <pointLight position={[57, 20, 10]} color="#E76C08" intensity={5000} castShadow shadow-mapSize={1024} />
       <pointLight position={[20, 7, -25]} color="#E76C08" intensity={1000} castShadow shadow-mapSize={1024} />
       <pointLight position={[20, 10, -25]} color="#F700FF" intensity={500} castShadow shadow-mapSize={1024} />
-      <pointLight position={[-35, 5, 0]} color="#FFFCFF" intensity={500} castShadow shadow-mapSize={1024} />
+      <pointLight position={[-50, 10, -20]} color="#FFFCFF" intensity={3000} castShadow shadow-mapSize={1024} rotation={[-0.5, 0, -1]}/>
+      <pointLight position={[-60, 10, -30]} color="#FFFCFF" intensity={3000} castShadow shadow-mapSize={1024} />
       
       
       <Physics gravity={[0, -9.8, 0]}>

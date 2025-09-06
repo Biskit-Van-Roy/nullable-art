@@ -15,7 +15,7 @@ export const Ground = () => {
       position={[0, 0, 0]}
  
     >
-      <planeGeometry args={[200, 200]} />
+      <planeGeometry args={[1200, 1200]} />
       <MeshReflectorMaterial
         blur={[900, 1000]}
         resolution={1024}

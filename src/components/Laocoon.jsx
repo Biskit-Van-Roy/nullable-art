@@ -8,7 +8,7 @@ export function Laocoon(props) {
   console.log('Laocoon materials:', materials)
 
   return (
-    <group {...props} dispose={null} position={[55, 0, 15]}>
+    <group {...props} dispose={null} position={[60, 0, 15]}>
       <mesh
         geometry={nodes.Object_2.geometry}
         material={materials.None}

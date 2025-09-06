@@ -4,7 +4,7 @@ import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 import { Robot } from "./Robot";
 
-const SPEED = 6;
+const SPEED = 18;
 const ROTATION_SPEED = 3;
 
 export const PlayerCactus = forwardRef((props, ref) => {

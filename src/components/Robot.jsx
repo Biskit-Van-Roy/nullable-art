@@ -27,3 +27,4 @@ export const Robot = forwardRef((props, ref) => {
 })
 
 useGLTF.preload('/models/robot.glb')
+
